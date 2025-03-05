@@ -1,0 +1,31 @@
+review 1 :
+Avoid using bad names , use camelCase and give appropriate name to the variable 
+Rename the variable to elapsedTimeInDays;
+
+review 2 :
+Instead of using var specify the return data type and rename the variable to employeeList
+
+review 3 :
+no need to mention the datatype in the variable and use camelCase
+int counter;
+string fullName;
+DateTime modifiedDate;
+
+review 4 :
+Give proper name to parameters 
+public bool IsShopOpen(string day, int amount)
+{
+    // some logic
+}
+
+review 5 :
+Use camelCase convention for const variables , convert var data types to specify the returned List in camelCase convention for songs to songsList
+Follow one naming convention
+
+review 6 :
+Properties of the class should be in PascalCase Convention and remove the comments and rename the variables to be more specific
+public Datetime WorkingDate { get; set; } 
+public Datetime ModificationTime { get; set; } 
+
+review 7 :
+Parameters should be in camelCase convert var data types to specify the return type
