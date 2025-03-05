@@ -1,0 +1,28 @@
+review 1 :
+move all true logic to one block and have early return 
+public bool IsShopOpen(string day)
+{
+    if (string.IsNullOrEmpty(day))
+    {
+        return false;
+    }
+	
+	var openingDays = new[] {"friday","saturday","sunday"};
+	return openingDays.Any(d => d == day.toLower());
+}
+
+review 3:
+move all magic variable to a const , eg set 50 as thresholdValue = 50 and follow early return if(n==0) return 0; then handle the logic in else block
+
+review 4:
+Use meaningful name to describe the list eg: cityList and the same goes for li , change it to listIndex and have declare variable close to their usage or pass the value directly to the funciton
+
+review 5:
+dont use magic value instead declare a const and use it
+
+review 6:
+Redundant usage of class name remove prefix of Car to the properties of class
+
+review 9 :
+Avoid Tight coupling 
+Or Make Default value as string breweryName = "Hipster Brew Co."
