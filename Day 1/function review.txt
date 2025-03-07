@@ -1,0 +1,29 @@
+review 1:
+Violation of single responsibilty principle
+Magic string should be avoided
+
+review 2:
+Side effect principle
+global name variable gets affected
+
+review 3:
+convert the function to positive case IsDOMNodePresent
+
+review 4:
+return type is missing
+add default case
+Use double quotes (") for string literals
+
+review 5:
+else block is missing
+check for alternative method instead of using GetType()
+
+review 6: 
+separate the function as CreateTempfile and Createfile
+
+review 7:
+Check for singleton is necessary for this usecase
+Unit testing using singleton might be tricky
+
+review 8:
+combine related parameters to one object and pass
